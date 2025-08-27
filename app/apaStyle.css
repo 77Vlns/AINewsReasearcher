@@ -1,0 +1,164 @@
+/* Estilos generales para el contenedor APA */
+.apa-text {
+  font-family: "Times New Roman", serif;
+  font-size: 12pt;
+  line-height: 1.5;
+  color: #000000;
+  text-align: justify;
+}
+
+/* Títulos de portada */
+.apa-text .title {
+  padding-top: 25px;
+  padding-bottom: 50px;
+  border-bottom: 1.5px solid black;
+}
+
+.apa-text .title h1 {
+  font-size: 18pt;
+  text-align: center;
+  font-weight: bold;
+}
+
+.apa-text .title h2 {
+  font-size: 12pt;
+  text-align: center;
+  font-style: italic;
+}
+
+.apa-text .title h3 {
+  font-size: 12pt;
+  text-align: center;
+  font-style: italic;
+}
+
+.apa-text .title h4 {
+  font-size: 12pt;
+  text-align: right;
+  padding-bottom: 50px;
+}
+
+/* Encabezados */
+.apa-text h1 {
+  font-size: 14pt;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.apa-text h2 {
+  font-size: 12pt;
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: left;
+}
+
+.apa-text h3 {
+  font-size: 12pt;
+  font-style: italic;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: left;
+}
+
+/* Texto general */
+.apa-text p {
+  margin: 10px 0;
+  text-align: justify;
+}
+
+/* Tablas en formato APA */
+.apa-text .apaTable {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.apa-text .apaTable th, 
+.apa-text .apaTable td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+  font-size: 12pt;
+}
+
+/* Referencias */
+.apa-text .apaReferences {
+  font-family: "Times New Roman", serif;
+  font-size: 12pt;
+  line-height: 1.5;
+  margin-left: 2em;
+  text-indent: -2em; /* Sangría francesa */
+  list-style-type: none;
+}
+
+.apa-text .apaReferences li {
+  margin-bottom: 1em;
+}
+
+.apa-text .apaReferences a {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* Estilo de citas dentro del texto */
+.apa-text .citation {
+  font-style: italic;
+  color: #000000;
+}
+
+/* Para impresión */
+@media print {
+  .apa-text {
+      width: 210mm;
+      height: 297mm; /* A4 dimensions */
+  }
+
+  .apa-text p, 
+  .apa-text h1, 
+  .apa-text h2, 
+  .apa-text h3, 
+  .apa-text th, 
+  .apa-text td {
+      font-family: "Times New Roman", serif;
+      font-size: 12pt;
+  }
+
+  .apa-text .apaTable th, 
+  .apa-text .apaTable td {
+      padding: 6px;
+  }
+}
+
+/* Listas en formato APA */
+.apa-text ul, .apa-text ol {
+  margin: 10px 0;
+  padding-left: 2em;
+}
+
+.apa-text ul li, .apa-text ol li {
+  margin-bottom: 6px;
+}
+
+/* Citas largas */
+.apa-text .long {
+  text-indent: 40px;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+/* Citas cortas */
+.apa-text .short {
+  font-style: italic;
+}
+
+/* Títulos y pie de página (opcional) */
+.apa-text .footer {
+  font-size: 10pt;
+  text-align: center;
+  margin-top: 20px;
+}
