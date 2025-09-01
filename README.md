@@ -21,6 +21,8 @@ El sistema integra búsqueda avanzada, optimización de resultados y redacción 
 
 ---
 ## 🎥 Demo del Proyecto
+![Demo](assets/demo.mp4)
+
 ---
 ## 🛠️ Tecnologías principales  
 
@@ -43,13 +45,27 @@ El sistema integra búsqueda avanzada, optimización de resultados y redacción 
 
 ---
 
-## 🏗️ Arquitectura de software  
+## 🏗️ Arquitectura del sistema
 
-📌 *diagrama de la arquitectura del sistema*  
+Aquí se muestra la arquitectura de software del proyecto:
 
-## 🔄 Flujo de trabajo del modelo IA y automatización
+![Arquitectura del sistema](assets/arquitectura.png)
+
+---
+
+## 🔄 Flujo de trabajo IA
+
+Descripción del flujo de trabajo con IA y automatización:
+
+![Flujo de trabajo IA](assets/flujo_trabajo.png)
+
+---
 
 ## 🗄️ Estructura de datos
+
+Diagrama de la base de datos en Supabase:
+
+![Estructura de datos](assets/estructura_datos.png)
 
 ---
 
