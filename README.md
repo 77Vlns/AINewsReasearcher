@@ -20,7 +20,8 @@ El sistema integra búsqueda avanzada, optimización de resultados y redacción 
 - Ajustar el estilo de los informes según las necesidades del usuario.  
 
 ---
-
+## 🎥 Demo del Proyecto
+---
 ## 🛠️ Tecnologías principales  
 
 - **Frontend:** React  
@@ -46,4 +47,87 @@ El sistema integra búsqueda avanzada, optimización de resultados y redacción 
 
 📌 *diagrama de la arquitectura del sistema*  
 
-![Arquitectura de Software](https://github.com/77Vlns/AINewsReasearcher/blob/main/imgs/Captura%20de%20pantalla%202025-09-01%20172849.png)
+## 🔄 Flujo de trabajo del modelo IA y automatización
+
+## 🗄️ Estructura de datos
+
+---
+
+## 📂 Estructura del proyecto
+
+AINewsResearcher/
+
+│── app/                  # Código principal Next.js
+
+│── components/           # Componentes de UI reutilizables
+
+│── pages/                # Rutas y vistas
+
+│── lib/                  # Funciones auxiliares
+
+│── public/               # Recursos estáticos
+
+│── styles/               # Configuración de TailwindCSS
+
+│── package.json          # Dependencias y scripts
+
+│── README.md             # Documentación
+
+└── docs/                 # Diagramas (arquitectura, flujo, datos)
+
+---
+
+## ⚡ Requisitos
+
+- Node.js 18+
+- Next.js 15
+- Cuenta y proyecto en Supabase
+- API Key de OpenAI
+- API Key de Tavily
+
+---
+
+## ▶️ Uso
+
+1.Inicia sesión con tu cuenta (gestión de usuarios con Supabase).
+
+2.Ingresa un tema de investigación o palabras clave.
+
+3.El sistema recopilará información desde distintas fuentes.
+
+4.Recibirás un informe generado por IA que podrás:
+
+  - Visualizar en la aplicación.
+  
+  - Descargar en PDF.
+  
+  - Personalizar según intención y tono.
+  
+---
+
+## 📄 Dependencias principales
+
+Este proyecto utiliza librerías y frameworks modernos, entre ellas:
+
+  - **UI & UX**: Radix UI, TailwindCSS, Framer Motion, Geist UI
+  
+  - **Gestión de formularios**: React Hook Form + Zod
+  
+  - **Autenticación y DB**: Supabase
+  
+  - **IA & APIs externas**: OpenAI, Tavily, NewsAPI
+  
+  - **Exportación de documentos**: jsPDF, html2canvas
+  
+(Ver todas en package.json)
+
+---
+
+🌟 Próximos pasos
+
+- Ampliar integración con más fuentes de noticias.
+
+- Mejoras en el pipeline de IA para análisis más profundo.
+
+- Generación de dashboards interactivos con métricas de las búsquedas.
+
