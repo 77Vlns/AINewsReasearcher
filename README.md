@@ -46,5 +46,4 @@ El sistema integra búsqueda avanzada, optimización de resultados y redacción 
 
 📌 *diagrama de la arquitectura del sistema*  
 
-```markdown
-![Arquitectura de Software](docs/arquitectura.png)
+![Arquitectura de Software](https://github.com/77Vlns/AINewsReasearcher/blob/main/imgs/Captura%20de%20pantalla%202025-09-01%20172849.png)
