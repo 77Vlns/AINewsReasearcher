@@ -61,14 +61,6 @@ Descripción del flujo de trabajo con IA y automatización:
 
 ---
 
-## 🗄️ Estructura de datos
-
-Diagrama de la base de datos en Supabase:
-
-![Estructura de datos](assets/estructura_datos.png)
-
----
-
 ## 📂 Estructura del proyecto
 
 AINewsResearcher/
