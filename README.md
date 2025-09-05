@@ -21,7 +21,10 @@ El sistema integra búsqueda avanzada, optimización de resultados y redacción 
 
 ---
 ## 🎥 Demo del Proyecto
-![Demo](assets/demo.mp4)
+![Demo](https://github.com/user-attachments/assets/b7bb35d0-7481-4da8-89b7-4a72aaf42596)
+
+
+
 
 ---
 ## 🛠️ Tecnologías principales  
