@@ -57,7 +57,7 @@ Aquí se muestra la arquitectura de software del proyecto:
 
 Descripción del flujo de trabajo con IA y automatización:
 
-![Flujo de trabajo IA](assets/flujo_trabajo.png)
+![Flujo de trabajo IA](assets/workflow.png)
 
 ---
 
